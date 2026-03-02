@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Phresh Tech Media</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .services-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .service-card {
+            background: white;
+            border-left: 5px solid blue;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+            border-left-color: red;
+        }
+        .service-card h2 {
+            color: blue;
+            margin-bottom: 15px;
+        }
+        .service-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .service-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>🎨 Phresh Tech Media Services</h1>
+        <nav>
+            <a href="index.html" style="color: white; margin: 0 15px; text-decoration: none;">Home</a>
+            <a href="services.html" style="color: white; margin: 0 15px; text-decoration: none;">Services</a>
+            <a href="contact.html" style="color: white; margin: 0 15px; text-decoration: none;">Contact</a>
+        </nav>
+    </header>
+
+    <div class="services-container">
+        <!-- Graphic Design Service -->
+        <div class="service-card">
+            <div class="service-icon">🎨</div>
+            <h2>Graphic Design</h2>
+            <p>
+                Transform your vision into stunning visual designs. Our expert designers create:
+                <ul>
+                    <li>Logo Design</li>
+                    <li>Brand Identity</li>
+                    <li>Marketing Materials</li>
+                    <li>Social Media Graphics</li>
+                    <li>Print Design</li>
+                </ul>
+            </p>
+        </div>
+
+        <!-- Database Development Service -->
+        <div class="service-card">
+            <div class="service-icon">🗄️</div>
+            <h2>Database Development</h2>
+            <p>
+                Build robust and scalable database solutions for your business:
+                <ul>
+                    <li>Database Design & Architecture</li>
+                    <li>SQL & NoSQL Solutions</li>
+                    <li>Data Migration</li>
+                    <li>Performance Optimization</li>
+                    <li>Backup & Recovery Systems</li>
+                </ul>
+            </p>
+        </div>
+
+        <!-- Printing Services -->
+        <div class="service-card">
+            <div class="service-icon">🖨️</div>
+            <h2>Printing Services</h2>
+            <p>
+                High-quality printing for all your business needs:
+                <ul>
+                    <li>Business Cards</li>
+                    <li>Brochures & Flyers</li>
+                    <li>Banners & Posters</li>
+                    <li>Packaging Design & Printing</li>
+                    <li>Promotional Materials</li>
+                </ul>
+            </p>
+        </div>
+
+        <!-- Branding Services -->
+        <div class="service-card">
+            <div class="service-icon">🏷️</div>
+            <h2>Branding Services</h2>
+            <p>
+                Create a powerful brand identity that stands out:
+                <ul>
+                    <li>Brand Strategy</li>
+                    <li>Logo & Visual Identity</li>
+                    <li>Brand Guidelines</li>
+                    <li>Market Positioning</li>
+                    <li>Brand Communication</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 Phresh Tech Media. All Rights Reserved.</p>
+        <p>Email: PHRESHTECHMEDIASERVICES@GMAIL.COM | Phone: 0757848094, 0777139918</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
