@@ -4,54 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phresh Tech Media</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
-        header { background: linear-gradient(to right, blue, red); padding: 1rem; color: white; }
-        nav { display: flex; justify-content: center; }
-        nav a { color: white; margin: 0 1rem; text-decoration: none; }
-        .hero { background: #fff; padding: 2rem; text-align: center; }
-        .services { display: flex; justify-content: space-around; padding: 2rem; }
-        .service { background: white; padding: 1rem; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        footer { background: blue; color: white; text-align: center; padding: 1rem; position: relative; bottom: 0; width: 100%; }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div class="hero">
+            <h1>Welcome to Phresh Tech Media</h1>
+            <p>Your go-to solution for innovative tech media solutions.</p>
+            <a href="#services" class="btn">Explore Our Services</a>
+        </div>
     </header>
-    <section class="hero">
-        <h1>Welcome to Phresh Tech Media</h1>
-        <p>Your one-stop solution for all media services!</p>
-    </section>
-    <section class="services">
-        <div class="service">
-            <h2>Graphic Design</h2>
-            <p>Creative designs that capture attention.</p>
-        </div>
-        <div class="service">
-            <h2>Database Development</h2>
-            <p>Efficient database solutions for your business.</p>
-        </div>
-        <div class="service">
-            <h2>Printing Services</h2>
-            <p>High-quality prints for your marketing needs.</p>
-        </div>
-        <div class="service">
-            <h2>Branding Services</h2>
-            <p>Build a strong identity for your brand.</p>
-        </div>
-    </section>
-    <section class="contact">
-        <h2>Contact Us</h2>
-        <p>Email: PHRESHTECHMEDIASERVICES@GMAIL.COM</p>
-        <p>Phone: 0757848094, 0777139918</p>
-    </section>
+    <main>
+        <section class="services" id="services">
+            <h2>Our Services</h2>
+            <div class="grid">
+                <div class="service">Service 1</div>
+                <div class="service">Service 2</div>
+                <div class="service">Service 3</div>
+                <div class="service">Service 4</div>
+            </div>
+        </section>
+        <section class="about">
+            <h2>About Us</h2>
+            <p>We are committed to providing exceptional tech media services.</p>
+            <div class="statistics">
+                <div><strong>100+</strong> Projects Completed</div>
+                <div><strong>50+</strong> Happy Clients</div>
+                <div><strong>20+</strong> Awards Won</div>
+            </div>
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2026 Phresh Tech Media. All Rights Reserved.</p>
+        <h2>Contact Us</h2>
+        <p>Email: info@phreshtechmedia.com</p>
+        <p>Phone: (123) 456-7890</p>
     </footer>
 </body>
 </html>
